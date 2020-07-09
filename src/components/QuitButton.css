@@ -1,0 +1,25 @@
+.quitButton {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.quitButton span {
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background: skyblue;
+    transform: rotate(45deg);
+    transition: 0.5s;
+  }
+  
+  .quitButton span:nth-child(1) {
+    transform: rotate(135deg);
+  }
+  
+  .quitButton:hover span {
+    background: red;
+  }

@@ -1,0 +1,28 @@
+.vidjets {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.vidjets__weatherVidjet {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: url("img/cloud.png") no-repeat;
+  background-color: rgb(206, 241, 255);
+  background-size: 70% ; 
+  background-position: center;
+  border: 3px solid skyblue;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.vidjets__weatherVidjet:hover {
+  transform: scale(1.2);
+  border-color: yellow;
+  background: url("img/sun.png") no-repeat;
+  background-color: rgb(255, 255, 166);
+  background-size: 70% ; 
+  background-position: center;
+}

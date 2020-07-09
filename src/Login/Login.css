@@ -1,0 +1,41 @@
+.application {
+  background: url("img/loginBack.jpg") no-repeat;
+  background-size: cover;
+}
+
+.loginForm {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  border: 4px solid skyblue;
+  background: #fff;
+}
+
+.loginForm input {
+  padding: 4px 0;
+  border: none;
+  border-bottom: 2px solid lightgray;
+  color: rgb(42, 173, 224);
+}
+
+.loginForm button {
+  width: 120px;
+  padding: 8px 0;
+  color: #fff;
+  background: rgb(42, 173, 224);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginForm .loginIn {
+  margin-top: 10px;
+}
+
+.loginForm .loginUp {
+  background: rgb(226, 226, 226);
+}
